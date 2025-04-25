@@ -1235,62 +1235,6 @@ def uninstall_able():
     except:
         print(Panel("  [bold red]YOU ARE USEING ANT-UNINSTALL SYSTEM",style="bold purple"))
         exit()
-
-def get_approval_data(url):
-    response = requests.get(url)
-    response.raise_for_status()
-    return response.text
-
-def approval():
-    banner()    
-    uninstall_able()
-    if "pure_user" == url_sefty():
-        pass
-    elif "bypass_user" == url_sefty():
-        print(Panel("  [bold red]IAM BRYX FUCK YOUR MOM",style="bold purple"))
-        exit()
-    if "pure_user" == url_sefty2():
-        pass
-    elif "bypass_user" == url_sefty2():
-        print(Panel("  [bold red]IAM BRYX FUCK YOUR MOM",style="bold purple"))
-        exit()   
-    if "pure_user" == key_sefty():
-        pass
-    elif "bypass_user" == key_sefty2():
-        print(Panel("  [bold red]IAM BRYX FUCK YOUR MOM",style="bold purple"))
-        exit()
-    if "pure_user" == key_sefty():
-        pass
-    elif "bypass_user" == key_sefty2():
-        print(Panel("  [bold red]IAM BRYX FUCK YOUR MOM",style="bold purple"))
-        exit()
-    try:
-        user_id = str(os.geteuid())
-        uuid = f"{user_id}AUTO-CREATE-REGISTER-ERROR{user_id}"
-        key = f"BRYX-{uuid}"
-        print(Panel('  [bold cyan]YOU NEED APPROVAL TO USE THIS TOOL',subtitle="[bold red]❏ [bright_yellow]❏ [green1]❏",subtitle_align='left',title="[bold red]❏ [bright_yellow]❏ [green1]❏",title_align='right',width=102,padding=0,style="bold purple"))
-        print(Panel(" [bold green_yellow]YOUR KEY", subtitle='[bold purple]╭─────',subtitle_align='left',style="bold purple"))
-        print(f"   [bold purple]└──> [bold cyan1]{key}")
-        time.sleep(0.5)
-        urls = [
-            "https://bryxxxpogi.blogspot.com/2025/02/auto-create.html?m=1",
-        ]        
-        for url in urls:
-            approval_data = get_approval_data(url)
-            if key in approval_data:
-                print(Panel('  [bold green]YOUR KEY HAS BEEN APPROVED!!!!',subtitle="[bold red]❏ [bright_yellow]❏ [green1]❏",subtitle_align='left',title="[bold red]❏ [bright_yellow]❏ [green1]❏",title_align='right',width=102,padding=0,style="bold purple"))
-                time.sleep(3)
-                return key        
-        print(Panel('  [bold white]SEND KEY ON WHATSAPP',subtitle="[bold red]❏ [bright_yellow]❏ [green1]❏",subtitle_align='left',title="[bold red]❏ [bright_yellow]❏ [green1]❏",title_align='right',width=102,padding=0,style="bold purple"))
-        input("  \x1b[1;37mCLICK ENTER TO SEND YOUR KEY")
-        tks = ('HELLO%20SIR%20PLEASE%20%20APPROVED%20MY%20%20KEY%20:%20'+key)
-        os.system('am start https://wa.me/+639610075203?text='+tks)
-        exit()
-    except Exception as e:
-        pass
-        time.sleep(2)
-        exit()
-approval()
 #──────────────{ MAIN/MENU }──────────────#
 def AUTO_BRYX():
     banner()
