@@ -1223,6 +1223,9 @@ def menu():
     print(Panel(a,subtitle="[bold purple]┌─",subtitle_align='left',style="bold purple"))
     bryxpassword = console.input("   [bold purple]└──> ")
     if bryxpassword in ["c","C","3","03"]:
+        print(Panel(" [bold green]ENTER CUSTOM PASSWORD", subtitle='[bold purple]╭─────',subtitle_align='left',style="bold purple"))
+        password = console.input("   [bold purple]└──> ")
+    banner()
     print(Panel(f" [bold green]ACCOUNT CREATING STARTED",style="bold purple"))
     print(Panel(f" [bold green]IF NO RESULT ON/OFF AIRPLANE MODE OR VPN 1.1.1.1",style="bold purple"))
     for _ in range(num_accounts):        
