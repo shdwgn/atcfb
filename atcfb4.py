@@ -1219,9 +1219,10 @@ def menu():
     print(Panel(a,subtitle="[bold purple]┌─",subtitle_align='left',style="bold purple"))
     bryxemail = console.input("   [bold purple]└──> ")
     banner()
-    a=(Panel("""    [green_yellow][[bold cyan1]1/A[green_yellow]][bold green] DEFAULT PHILIPPINES PASSWORD\n    [green_yellow][[bold cyan1]2/B[green_yellow]][bold green] DEFAULT INDONESIA PASSWORD    """,title="[reverse purple] PASSWORD ",style="bold purple"))
+    a=(Panel("""    [green_yellow][[bold cyan1]1/A[green_yellow]][bold green] DEFAULT PHILIPPINES PASSWORD\n    [green_yellow][[bold cyan1]2/B[green_yellow]][bold green] DEFAULT INDONESIA PASSWORD\n    [green_yellow][[bold cyan1]3/C[green_yellow]][bold green] CUSTOM PASSWORD    """,title="[reverse purple] PASSWORD ",style="bold purple"))
     print(Panel(a,subtitle="[bold purple]┌─",subtitle_align='left',style="bold purple"))
     bryxpassword = console.input("   [bold purple]└──> ")
+    if bryxpassword in ["c","C","3","03"]:
     banner()
     print(Panel(f" [bold green]ACCOUNT CREATING STARTED",style="bold purple"))
     print(Panel(f" [bold green]IF NO RESULT ON/OFF AIRPLANE MODE OR VPN 1.1.1.1",style="bold purple"))
