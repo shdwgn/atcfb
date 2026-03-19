@@ -260,9 +260,12 @@ first_names = [
     "Josie", "Roel", "Aj", "Albert", "Rico", "Fatima", "Arvin", "Ernie", "Christian", "Nicolas",
     "Benjamin", "Ben", "Melchor", "Kyle", "Johnpaul", "Danilo", "Ashley", "James", "Juan", "Cedric",
     "Angel", "Charlene", "Riley", "Aliyah", "Nicole", "Paula", "Leah", "Florence", "Lyka", "Sofia",
-    "Sophia", "Elaine", "Erica", "Thea", "Gabrielle", "Bea"
+    "Sophia", "Elaine", "Erica", "Thea", "Gabrielle", "Bea" , "Kenzo" , "Alfred" , "Marco" , "Kendra" , "Keith" ,
+	"Mj" , "Sandra" , "Melvin" , "Cyrus" , "Amber" , "Raizo" , "Janna" , "Roi" , "Janjan" , "Jhustine" ,
+	"Sheena" , "Shaira" , "Aina" , "Zander" , "Jayson" ,
 ]
-surnames = ["Cruz", "Valdez", "Agustin", "Narciso", "Garcia", "Bernardino", "Rosales", "Perez", "Castro", "Delos Reyes",]
+surnames = ["Cruz", "Valdez", "Agustin", "Narciso", "Garcia", "Bernardino", "Rosales", "Perez", "Castro", "Delos Reyes", "Miranda", "Mercado", "Mendoza", "Manalo", "Malvar", "Abalos", "Jimenez", "Javier", "Lacson", 
+			"Jose", "Imperial", "Guanzon", "Gonzales", "Francisco", "Fuentes", "Espiritu", "Esteban", "Evangelista", "Fajardo", "Dizon", "Doromal" ]
 
 def get_bd_name():
     return random.choice(first_names), random.choice(surnames)
@@ -352,8 +355,8 @@ def banner():
 ╚═╝╩ ╩╚  ╩╚═╩ ╩                          
         {W}I      {R}M   {W}Y      {R}S   {W}M {R}X    D
 {W}─────────────────────────────────────────────{W}
-{W}[{G}•{W}]{G} SCRIPT {W}:{G} DK
-{W}[{G}•{W}]{G} FACEBOOK {W}:{G} Zk Volkschev Pogi
+{W}[{G}•{W}]{G} SCRIPT {W}:{G} LUCAS
+{W}[{G}•{W}]{G} FACEBOOK {W}:{G} Lucas Lihm
 {W}[{G}•{W}]{G} GITHUB   {W}:{G} secret
 {W}[{G}•{W}]{G} TOOL     {W}:{G} Auto Create FRA
 {W}─────────────────────────────────────────────{W}""")
