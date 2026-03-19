@@ -36,7 +36,7 @@ def logo():
   
 
 def fake_password():
-    return f"crimzzfba"
+    return f"lucasxx"
 
 def get_temp_email():
     name = faker.first_name()
@@ -211,7 +211,7 @@ def main():
     clear()
     logo()
     info = f"""
-    {G}[{Y}✓{G}]{W} OWNER : {G}HULAAN MO
+    {G}[{Y}✓{G}]{W} OWNER : {G}MAMA MO
     {G}[{Y}✓{G}]{W} TOOLS : {G}FB ACCOUNT CREATOR 
     {G}[{Y}✓{G}]{W} VERSION : {G} TESTERS
     """
