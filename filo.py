@@ -262,10 +262,23 @@ first_names = [
     "Angel", "Charlene", "Riley", "Aliyah", "Nicole", "Paula", "Leah", "Florence", "Lyka", "Sofia",
     "Sophia", "Elaine", "Erica", "Thea", "Gabrielle", "Bea" , "Kenzo" , "Alfred" , "Marco" , "Kendra" , "Keith" ,
 	"Mj" , "Sandra" , "Melvin" , "Cyrus" , "Amber" , "Raizo" , "Janna" , "Roi" , "Janjan" , "Jhustine" ,
-	"Sheena" , "Shaira" , "Aina" , "Zander" , "Jayson" ,
+	"Sheena" , "Shaira" , "Aina" , "Zander" , "Jayson", "Adrian", "Sophia", "Miguel", "Isabella", "Ethan", "Julia", 
+	"Liam", "Gabriella", "Noah", "Alexandra", "James", "Andrea", "Daniel", "Natalie", "Matthew", "Nicole", "Sebastian",
+	"Hannah", "David", "Mikaela", "Ryan", "Samantha", "Christian", "Angela", "Joshua", "Grace", "Jasper", "Victoria", "Anthony",
+	"Charlotte", "Arkin", "Emma", "Christopher", "Olivia", "Mark", "Paul", "Dave", "Paulo", "Patrick",
+	"Clara", "Jiro", "Alexandra", "Kenshin", "Theresa", "Edward", "Luna", "Francis", "Aurora", "Carlos", "Elena", 
 ]
-surnames = ["Cruz", "Valdez", "Agustin", "Narciso", "Garcia", "Bernardino", "Rosales", "Perez", "Castro", "Delos Reyes", "Miranda", "Mercado", "Mendoza", "Manalo", "Malvar", "Abalos", "Jimenez", "Javier", "Lacson", 
-			"Jose", "Imperial", "Guanzon", "Gonzales", "Francisco", "Fuentes", "Espiritu", "Esteban", "Evangelista", "Fajardo", "Dizon", "Doromal" ]
+surnames = ["Reyes", "Dela Cruz", "Santos", "Fernandez", "Garcia", "Rodriguez", "Manalo", "Lopez", "Aguilar", "Torres",
+			"Villanueva", "Cruz", "Aquino", "Perez", "Gonzales", "Mendoza", "Alejandro", "Ramos", "Castillo", "Francisco", "Dizon",
+			"Villamor", "Ocampo", "Martinez", "Lim", "Fuentes", "Nieto", "Aquino", "Valdez", "Bautista", "Rivera", "De Leon",
+			"Santiago", "Ortega", "Silva", "Mercado", "Carpio", "Vargas", "Hernandez", "Salazar", "Guevara", "Del Rosario", "Panganiban", 
+			"Atienza", "Morales", "Dominguez", "Espinoza", "Coronel", "Rojas", "Solis", "Dela Rosa", "Baldomero", "Sanchez", "Estrella", "Gatchalian", "Padilla",
+			"Quizon", "Alvarez", "Dimaculangan", "Marquez", "Navarro", "Abaya", "Cusi", "Villanueva", "Lee", "Chavez", "Rosales", "Magsaysay", "Escobar",
+			"Puno", "Enriquez", "Tolentino", "Lazaro", "Macapagal", "Arroyo", "Recto", "Lacson", "Revilla", "Estrada", "Velasco", "Molina", "Diaz", "Romero", 
+			"Guerrero", "Castillo", "Alcantara", "Clemente", "Dacanay", "Eugenio", "Flores", "Gutierrez", "Herrera", "Ilagan", "Javier", "Lacuesta", "Magsino",
+			"Nolasco", "Orias", "Pamplona", "Quintos", "Rico", "Santillan", "Tiongson", "Ubial", "Valencia", "Yap", "Zamora", "Abarquez", "Baltazar", "Cabrera", "Dacanay",
+			"Eleazar", "Fajardo", "Gonzales", "Hizon", "Ibanez", "Jimenez", "Kintanar", "Lapuz", "Mallari", "Natividad", "Ocampo", "Palacios", "Quiambao", "Roldan",
+			"Sarmiento", "Tanchanco", "Umali", "Wenceslao", "Yuson", "Zarate"  ]
 
 def get_bd_name():
     return random.choice(first_names), random.choice(surnames)
