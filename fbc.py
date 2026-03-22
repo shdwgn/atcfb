@@ -20,7 +20,6 @@ import logging
 
 osxd = os.system
 os.system('cls' if platform.system().lower() == 'windows' else 'clear')
-os.system('xdg-open https://www.tiktok.com/@takbirahmed0099');time.sleep(1.5)
 
 print('\033[92;1m>>\033[1;37m Installing missing modules ...')
 osxd('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests bs4')
