@@ -342,7 +342,7 @@ def xiyadmailx_email():
     name = fake.first_name() + fake.last_name()
     username = re.sub(r'[^a-zA-Z]', '', name).lower()
     number = random.randint(1000, 9999)
-    return f"{username}{number}@xiyadmailx.xyz"
+    return f"{username}{number}@dfshdow.site"
     
 
 # HTML form extractor
@@ -459,7 +459,7 @@ def createfb_method_3():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = xiyadmailx_email()
+                phone = dfshdow_email()
 
             payload = {
                 'ccp': "2",
@@ -609,7 +609,7 @@ def createfb_method_2():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = xiyadmailx_email()
+                phone = dfshdow_email()
 
             payload = {
                 'ccp': "2",
@@ -752,7 +752,7 @@ def createfb_method_1():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = xiyadmailx_email()
+                phone = dfshdow_email()
 
             payload = {
                 'ccp': "2",
