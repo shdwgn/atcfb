@@ -257,29 +257,55 @@ for generate in range(100):
 # Name and password generation
 first_names = [
     "Ayesha", "Sumaiya", "Mitu", "Sharmin", "Nusrat", "Moushumi", "Laboni", "Rumana", "Lamia", "Sadia",
-    "Farzana", "Tania", "Shanta", "Nadia", "Salma", "Nargis", "Shabnam", "Mim", "Jannat", "Priya",
-    "Afia", "Jerin", "Mahira", "Sinthia", "Oishee", "Trisha", "Rakhi", "Puja", "Ema", "Sabrina",
-    "Tahmina", "Naznin", "Rifat", "Antora", "Nilufa", "Elma", "Bonna", "Sanjida", "Riya", "Mahi",
-    "Sumi", "Arpita", "Tumpa", "Pinky", "Munia", "Tuli", "Runa", "Rupsha", "Nasima", "Sharifa",
-    "Kaniz", "Taslima", "Faria", "Joya", "Khadija", "Fatema", "Halima", "Shorna", "Ishita", "Mou",
-    "Sumona", "Konika", "Anika", "Afroza", "Sanjana", "Nourin", "Falguni", "Reshma", "Bonhi", "Aklima",
-    "Jerin", "Salma", "Tisha", "Sinthi", "Shimul", "Nabila", "Noshin", "Tania", "Tania", "Minu",
-    "Tanjina", "Anjuman", "Ruksana", "Dilruba", "Sumaira", "Samia", "Rashida", "Nishat", "Asma", "Lubna",
-    "Mahiya", "Zinia", "Tanima", "Monira", "Nilufa", "Narmeen", "Sabila", "Jinnat", "Mahbuba", "Borsha",
-    "Nadia", "Sharmin", "Rokeya", "Nahida", "Shathi", "Anamika", "Rokhshana", "Mahinur", "Sanjida", "Morsheda",
-    "Khadiza", "Sayma", "Rumana", "Zakia", "Suborna", "Fariha", "Sultana", "Farzana", "Tumpa", "Sadia",
-    "Nargis", "Rodela", "Sabrina", "Shaima", "Najma", "Khaleda", "Tanzila", "Nushrat", "Samira", "Anisa",
-    "Tanjila", "Tasfia", "Mim", "Trina", "Zara", "Arifa", "Khadija", "Laila", "Mahima", "Fatima",
-    "Afia", "Sanjida", "Sanjiya", "Moyna", "Dipa", "Tanima", "Nishita", "Alifa", "Nazira", "Raisa",
-    "Afsana", "Rubina", "Minara", "Morium", "Nila", "Kanta", "Sumona", "Bithi", "Moyna", "Adiba",
-    "Lopa", "Elora", "Rehana", "Purnima", "Aklima", "Sharmin", "Shaheda", "Tanjuma", "Pakhi", "Afsari",
-    "Mobina", "Khadiza", "Niloy", "Sharmi", "Jerin", "Tumpa", "Urmi", "Sweety", "Jumaiya", "Shanta",
-    "Arin", "Taslima", "Naznin", "Samia", "Fariha", "Karishma", "Zarifa", "Asifa", "Tani", "Anonna",
-    "Rokshana", "Mousumi", "Eshita", "Tanisha", "Moumita", "Nusrat", "Taniya", "Oni", "Marjia", "Nashita",
-    "Nashrin", "Fozia", "Sinthia", "Tanjina", "Nazma", "Papia", "Lubaba", "Nilufa", "Ashfia", "Shama",
-    "Sayda", "Rahima", "Masuma", "Monika", "Riyana", "Jesmin", "Humaira", "Maisha", "Sumita", "Anjuli"
+    "Adara", "Adriel", "Aeris", "Aidan", "Aika", "Ailene", "Akira", "Alaric", "Alessa", "Alessandra",
+"Alexei", "Alexis", "Alfonso", "Althea", "Amara", "Amari", "Ameer", "Anders", "Andrei", "Andrew",
+"Angelo", "Anika", "Annika", "Ansel", "Anton", "Aria", "Ariana", "Aris", "Armani", "Asher",
+"Aurelia", "Aurora", "Axel", "Bastien", "Bella", "Benedict", "Bianca", "Blair", "Blake", "Blythe",
+"Bono", "Bria", "Briony", "Bruno", "Caleb", "Calix", "Camille", "Canaan", "Carl", "Carlos",
+"Carmela", "Carina", "Carmen", "Cassandra", "Cassius", "Celine", "Cian", "Cielo", "Clea", "Clara",
+"Clark", "Clement", "Coco", "Cruz", "Dahlia", "Dante", "Darius", "Dawn", "Dax", "Deanna",
+"Derek", "Diana", "Diego", "Dominic", "Donovan", "Drew", "Eden", "Edric", "Elena", "Eli",
+"Elijah", "Elise", "Eliza", "Elliot", "Elsa", "Emilio", "Emmanuel", "Emmett", "Enzo", "Erika",
+"Esme", "Estelle", "Ethan", "Eve", "Felipe", "Fiona", "Francesca", "Gabriel", "Gabrielle", "Gael",
+"Gian", "Gianna", "Giovanni", "Grace", "Greta", "Guillermo", "Hannah", "Harley", "Harris", "Hazel",
+"Helen", "Hiro", "Hunter", "Ianna", "Ian", "Irene", "Isaac", "Isabella", "Isabelle", "Ivy",
+"Jace", "Jacob", "Jade", "Javier", "Jazmin", "Jasmine", "Jed", "Joaquin", "Jodi", "Johan",
+"John", "Jonas", "Jordan", "Jude", "Julia", "Julian", "Julienne", "Jun", "Kai", "Kaia",
+"Kaleb", "Karl", "Karla", "Katrina", "Keith", "Kendra", "Kenji", "Kian", "Kim", "Kira",
+"Kyle", "Lance", "Landry", "Lauren", "Leah", "Leon", "Leona", "Levi", "Liam", "Liza",
+"Lola", "Loren", "Louise", "Lucas", "Lucia", "Luna", "Mara", "Margaret", "Maria", "Mariano",
+"Mark", "Marta", "Martin", "Maya", "Mica", "Miguel", "Mika", "Mikhail", "Mila", "Milton",
+"Mireille", "Molly", "Mona", "Nathan", "Natalie", "Nathaniel", "Naya", "Nico", "Nicole", "Nika",
+"Noah", "Nora", "Nathan", "Olivia", "Oliver", "Omar", "Ophelia", "Patrick", "Paula", "Pauline",
+"Phoebe", "Pierce", "Prince", "Quinn", "Rafael", "Raine", "Ralph", "Ramona", "Raphael", "Rhea",
+"Rhys", "Ricardo", "Riley", "Rina", "Robert", "Rocco", "Rosa", "Ross", "Ruby", "Sabina",
+"Sam", "Samantha", "Samuel", "Sara", "Sofia", "Solomon", "Sophia", "Spencer", "Stella", "Sylvia",
+"Tai", "Tara", "Theo", "Theodore", "Thomas", "Tiffany", "Toby", "Trent", "Tristan", "Troy",
+"Uma", "Valentina", "Valerio", "Vanessa", "Vince", "Vincent", "Vivian", "Xavier", "Xenia", "Yael",
+"Yanna", "Yara", "Yves", "Zachary", "Zara", "Zayne", "Zia", "Zion", "Zoey", "Zoe"
 ]
-surnames = ["Akter", "Begum", "Khatun", "Sultana", "Haque", "Rahman", "Chowdhury", "Islam", "Jahan", "Parvin",]
+surnames = ["Abalos", "Abaya", "Abello", "Abendan", "Abiera", "Abogado", "Abraham", "Abu", "Acain", "Acosta",
+"Adalem", "Adan", "Adonis", "Agbayani", "Agcaoili", "Agapito", "Agarao", "Agbayani", "Aguilar", "Aguirre",
+"Aguinaldo", "Agustin", "Alao", "Alcantara", "Alcaraz", "Aldea", "Aldrin", "Alejandro", "Alfonso", "Alonzo",
+"Alvarado", "Alvarez", "Amante", "Amatong", "Amechazura", "Amurao", "Ancheta", "Andaya", "Andres", "Ang",
+"Aniban", "Aquino", "Arevalo", "Aringo", "Arnaiz", "Arroyo", "Asis", "Atienza", "Aurelio", "Avila",
+"Bacani", "Bacarro", "Bacolod", "Bacomo", "Badillo", "Bagabaldo", "Baguio", "Bahague", "Balanay", "Balboa",
+"Balce", "Balderrama", "Baldomero", "Balido", "Balinas", "Balingit", "Baluyut", "Banaag", "Bandilla", "Bañas",
+"Bautista", "Bayani", "Baylon", "Beato", "Belaro", "Beltran", "Benitez", "Bernardo", "Bersamin", "Betita",
+"Bienvenido", "Bigornia", "Bautista", "Bocalan", "Borja", "Bordado", "Borromeo", "Bosque", "Braga", "Brillantes",
+"Buenaflor", "Buendia", "Bulatao", "Bundoc", "Burgos", "Caballes", "Cabalfin", "Cabangon", "Cabato", "Cabusao",
+"Cacdac", "Cagulada", "Cajanding", "Calderon", "Calica", "Callangan", "Callo", "Calma", "Campos", "Canlas",
+"Cañete", "Capistrano", "Caraig", "Cardenas", "Carillo", "Carpio", "Carreon", "Castro", "Catacutan", "Cayabyab",
+"Ceballos", "Cervantes", "Chavez", "Clemente", "Cordero", "Coronel", "Corpuz", "Cruz", "Cuadra", "Cuevas",
+"Dacanay", "Dacumos", "Dado", "Dagul", "Dalisay", "Danao", "Dantes", "Dela Cruz", "Dela Rosa", "Dela Torre",
+"Dela Vega", "Delos Reyes", "Dizon", "Domingo", "Dumlao", "Duran", "Duya", "Dyson", "Escalante", "Escobar",
+"Escudero", "Esteban", "Estrada", "Evangelista", "Fabian", "Factoran", "Falcon", "Flores", "Fontanilla", "Franco",
+"Fuentes", "Gacutan", "Galang", "Galvez", "Garcia", "Garcia", "Gatchalian", "Gonzales", "Gonzaga", "Gosiengfiao",
+"Guerrero", "Guinto", "Gutierrez", "Hernandez", "Herrera", "Hizon", "Ilagan", "Imperial", "Ingles", "Isidro",
+"Jacinto", "Javier", "Jimenez", "Joaquin", "Johnson", "Jumawan", "Kamatayan", "Kintanar", "Lacson", "Laguardia",
+"Lajara", "Lambino", "Lanuza", "Lapid", "Larrazabal", "Lat", "Laxa", "Legaspi", "Leones", "Lerma",
+"Lim", "Lopez", "Lorenzo", "Lucero", "Lugo", "Macapagal", "Macaraeg", "Macario", "Madrigal", "Magsaysay",
+"Manalo", "Manansala", "Mangubat", "Marasigan", "Marcelo", "Marcos", "Marquez", "Martinez", "Mendoza", "Mercado",]
 
 def get_bd_name():
     return random.choice(first_names), random.choice(surnames)
@@ -370,10 +396,10 @@ def banner():
         888888 dP  Yb     dP  Yb 8888Y"  
         {W}X      {R}I   {W}Y      {R}A   {W}D {R}X    D
 {W}─────────────────────────────────────────────{W}
-{W}[{G}•{W}]{G} DEVOLPER {W}:{G} XIYAD
-{W}[{G}•{W}]{G} FACEBOOK {W}:{G} Riyad Mahfuz
-{W}[{G}•{W}]{G} GITHUB   {W}:{G} Xiyad69
-{W}[{G}•{W}]{G} TOOL     {W}:{G} Auto Create / SC SEND ; KALYAN KING / KGF CYBER 
+{W}[{G}•{W}]{G} DEVOLPER {W}:{G} LUCAS
+{W}[{G}•{W}]{G} FACEBOOK {W}:{G} Lucas Lihm
+{W}[{G}•{W}]{G} GITHUB   {W}:{G} SECRET
+{W}[{G}•{W}]{G} TOOL     {W}:{G} Auto Create FB
 {W}─────────────────────────────────────────────{W}""")
 
 def linex():
