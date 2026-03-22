@@ -417,7 +417,7 @@ def createfb_method_3():
     linex()
     email_choice = input(f"{W}[{G}•{W}]{G} CHOISE {W}:{G} ")
     linex()
-    print(f"{W}[{G}1{W}]{G} GIRL NAME BANGLADESH")
+    print(f"{W}[{G}1{W}]{G} FILIPINO NAME ")
     linex()
     name_choice = input(f"{W}[{G}•{W}]{G} CHOISE {W}:{G} ")
     linex()
