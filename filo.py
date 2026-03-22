@@ -338,7 +338,7 @@ import random
 
 fake = Faker()
 
-def xiyadmailx_email():
+def dfshdow_email():
     name = fake.first_name() + fake.last_name()
     username = re.sub(r'[^a-zA-Z]', '', name).lower()
     number = random.randint(1000, 9999)
