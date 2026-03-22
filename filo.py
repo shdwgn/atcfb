@@ -282,18 +282,17 @@ first_names = [
 "John", "Jolina", "Jonas", "Joy", "Juan", "Julian", "Julia", "Julius", "Justine", "Kai",
 "Kalel", "Katherine", "Katrina", "Keith", "Kelvin", "Kenneth", "Khloe", "Kiara", "Kyle", "Lance",
 "Lara", "Larry", "Lauren", "Leah", "Leon", "Leona", "Lexi", "Liam", "Lilia", "Lino",
-"Liza", "Logan", "Lola", "Lorenzo", "Louise", "Lucas", "Lucia", "Luke", "Luna", "Mael",
+"Liza", "Logan", "Lorenzo", "Louise", "Lucas", "Lucia", "Luke", "Luna", "Mael",
 "Maja", "Malachi", "Mara", "Marco", "Margaret", "Maria", "Mariano", "Marigold", "Mark", "Martha",
 "Martin", "Mary", "Mathew", "Maverick", "Mayumi", "Micaela", "Miguel", "Mika", "Milo", "Mira",
 "Mireille", "Mitch", "Moises", "Mona", "Moses", "Nathan", "Natalie", "Nathaniel", "Naya", "Neil",
 "Nena", "Nicolas", "Nina", "Noah", "Nora", "Oliver", "Olivia", "Onofre", "Oscar", "Paolo",
 "Patricia", "Patrick", "Paul", "Pearl", "Phoebe", "Pio", "Priscilla", "Prince", "Princess", "Quentin",
 "Quinn", "Rafael", "Raina", "Ralph", "Ramona", "Raphael", "Raven", "Rebecca", "Red", "Regina",
-"Reign", "Ren", "Renee", "Rex", "Rhian", "Ricardo", "Rita", "River", "Robert", "Rosa",
-"Rosario", "Ruben", "Ruby", "Ryan", "Sabina", "Sabrina", "Salvador", "Sam", "Samantha", "Samuel",
+"Reign", "Ren", "Renee", "Rex", "Rhian", "Ricardo", "Rita", "River", "Robert", "Ruby", "Ryan", "Sabina", "Sabrina", "Salvador", "Sam", "Samantha", "Samuel",
 "Sara", "Sofia", "Solomon", "Sophia", "Spencer", "Stella", "Santiago", "Sara", "Sebastian", "Seraphina",
 "Shawn", "Shayne", "Sierra", "Silas", "Simone", "Sol", "Sonia", "Sophie", "Spike", "Stella",
-"Susan", "Sylvia", "Talon", "Tanya", "Tatiana", "Teddy", "Theresa", "Thomas", "Tiffany", "Timothy",
+"Susan", "Sylvia", "Trixie", "Tanya", "Tatiana", "Teddy", "Theresa", "Thomas", "Tiffany", "Timothy",
 "Tomas", "Trisha", "Tristan", "Troy", "Uriel", "Ursula", "Valentina", "Valentino", "Vanessa", "Vince",
 "Vincent", "Victoria", "Violet", "Virgil", "Vivian", "Wesley", "William", "Willa", "Xavier", "Xyla",
 "Yael", "Yanna", "Yasmin", "Yves", "Zachary", "Zara", "Zayne", "Zena", "Zion", "Zoe"
@@ -436,7 +435,7 @@ def banner():
 ╔═╗╦╔═╔═╗╦═╗╔═╗
 ╔═╝╠╩╗╠╣ ╠╦╝╠═╣
 ╚═╝╩ ╩╚  ╩╚═╩ ╩                          
-        {W}I      {R}M   {W}Y      {R}S   {W}M {R}X    D
+        {W}L      {R}U   {W}C      {R}A   {W}S {R}X    D
 {W}─────────────────────────────────────────────{W}
 {W}[{G}•{W}]{G} SCRIPT {W}:{G} LUCAS
 {W}[{G}•{W}]{G} FACEBOOK {W}:{G} Lucas Lihm
@@ -487,7 +486,7 @@ def createfb_method_3():
     linex()
     email_choice = input(f"{W}[{G}•{W}]{G} CHOISE {W}:{G} ")
     linex()
-    print(f"{W}[{G}1{W}]{G} FILIPINO NAME ")
+    print(f"{W}[{G}1{W}]{G} CREATE FILIPINO NAME")
     linex()
     name_choice = input(f"{W}[{G}•{W}]{G} CHOISE {W}:{G} ")
     linex()
@@ -544,7 +543,7 @@ def createfb_method_3():
                 'birthday_month': str(random.randint(5, 25)),
                 'birthday_year': str(random.randint(1990, 2001)),
                 'reg_email__': phone,
-                'sex': "1",  # Female
+                'sex': "2",  # Female , # Male
                 'encpass': f'#PWD_BROWSER:0:{int(time.time())}:{pww}',
                 'submit': "Sign Up",
                 'fb_dtsg': form.get("fb_dtsg", ""),
