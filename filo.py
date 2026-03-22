@@ -543,7 +543,7 @@ def createfb_method_3():
                 'birthday_month': str(random.randint(5, 25)),
                 'birthday_year': str(random.randint(1990, 2001)),
                 'reg_email__': phone,
-                'sex': "2",  # Female , # Male
+                'sex': "1", "2" , # Female , # Male
                 'encpass': f'#PWD_BROWSER:0:{int(time.time())}:{pww}',
                 'submit': "Sign Up",
                 'fb_dtsg': form.get("fb_dtsg", ""),
