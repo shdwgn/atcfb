@@ -322,11 +322,11 @@ import random
 
 fake = Faker()
 
-def xiyadmailx_email():
+def ygmail_email():
     name = fake.first_name() + fake.last_name()
     username = re.sub(r'[^a-zA-Z]', '', name).lower()
     number = random.randint(1000, 9999)
-    return f"{username}{number}@xiyadmailx.xyz"
+    return f"{username}{number}@ygmail.cfd"
     
 
 # HTML form extractor
@@ -354,10 +354,10 @@ def banner():
  ████      ██   ██    ████     ██   ██      ███        █████                       
         {W}I      {R}M   {W}Y      {R}S   {W}M {R}X    D
 {W}─────────────────────────────────────────────{W}
-{W}[{G}•{W}]{G} SCRIPT {W}:{G} JRJ2026
-{W}[{G}•{W}]{G} FACEBOOK {W}:{G} John Ryan Javinez
+{W}[{G}•{W}]{G} SCRIPT {W}:{G} LIAM
+{W}[{G}•{W}]{G} FACEBOOK {W}:{G} LIAM BAUTISTA
 {W}[{G}•{W}]{G} GITHUB   {W}:{G} secret
-{W}[{G}•{W}]{G} TOOL     {W}:{G} AUTO CREATE Jajavz
+{W}[{G}•{W}]{G} TOOL     {W}:{G} AUTO CREATE FRA
 {W}─────────────────────────────────────────────{W}""")
 
 def linex():
@@ -403,7 +403,7 @@ def createfb_method_3():
     linex()
     email_choice = input(f"{W}[{G}•{W}]{G} CHOISE {W}:{G} ")
     linex()
-    print(f"{W}[{G}1{W}]{G} GIRL NAME PHILIPPINES!")
+    print(f"{W}[{G}1{W}]{G} RANDOM NAME PHILIPPINES!")
     linex()
     name_choice = input(f"{W}[{G}•{W}]{G} CHOISE {W}:{G} ")
     linex()
@@ -445,7 +445,7 @@ def createfb_method_3():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = xiyadmailx_email()
+                phone = ygmail_email()
 
             payload = {
                 'ccp': "2",
@@ -595,7 +595,7 @@ def createfb_method_2():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = xiyadmailx_email()
+                phone = ygmail_email()
 
             payload = {
                 'ccp': "2",
@@ -738,7 +738,7 @@ def createfb_method_1():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = xiyadmailx_email()
+                phone = ygmail_email()
 
             payload = {
                 'ccp': "2",
