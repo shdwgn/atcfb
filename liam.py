@@ -322,11 +322,11 @@ import random
 
 fake = Faker()
 
-def ygmail_email():
+def harakirimail_email():
     name = fake.first_name() + fake.last_name()
     username = re.sub(r'[^a-zA-Z]', '', name).lower()
     number = random.randint(1000, 9999)
-    return f"{username}{number}@ygmail.cfd"
+    return f"{username}{number}@harakirimail.com"
     
 
 # HTML form extractor
@@ -445,7 +445,7 @@ def createfb_method_3():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = ygmail_email()
+                phone = harakirimail_email()
 
             payload = {
                 'ccp': "2",
@@ -595,7 +595,7 @@ def createfb_method_2():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = ygmail_email()
+                phone = harakirimail_email()
 
             payload = {
                 'ccp': "2",
@@ -738,7 +738,7 @@ def createfb_method_1():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = ygmail_email()
+                phone = harakirimail_email()
 
             payload = {
                 'ccp': "2",
