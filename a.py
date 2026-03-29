@@ -43,13 +43,6 @@ m="\033[1;35m"
 c="\033[1;36m"
 w="\033[1;37m"
 
-def clr():
-    try:
-        data = os.listdir('/sdcard')
-        if 'Android' in data:
-            print('\x1b[1;91m[!] ALL YOUR FILES WILL BE REMOVED IF YOU TRY AGAIN!')
-            exit()
-    except Exception as e:pass
 
 from requests import api
 x = open(api.__file__, 'r').read()
