@@ -1,4 +1,4 @@
-import os
+forimport os
 import sys
 import re
 import random
@@ -328,10 +328,9 @@ surnames = ["Reyes", "Dela Cruz", "Santos", "Fernandez", "Garcia", "Rodriguez", 
 "Escoto", "Esteban", "Estrada", "Etulle", "Evangelista", "Fabian", "Fajardo", "Falcon", "Ferrer", "Figueroa",
 "Flores", "Floresca", "Fontanilla", "Franco", "Fuentes", "Fulgencio", "Galang", "Galvez", "Garcia", "Garciano",
 "Gatchalian", "Gaviola", "Gonzales", "Gonzaga", "Gopilan", "Gordon", "Gragasin", "Guerrero", "Guevara", "Guinto",
-"Gutierrez", "Habas", "Habulan", "Hacbang", "Hernandez", "Herrera", "Hilvano", "Hipolito", "Hizon", "Hornilla",
-"Huang", "Ilagan", "Ilano", "Ingles", "Inocencio", "Iñiguez", "Irisan", "Isidro", "Jacinto", "Javier", "Jimenez", "Joaquin", "Jocson", "Javier", "Jumawan", "Jurado", "Lacuesta", "Lacuna",
+"Gutierrez", "Habas", "Habulan", "Hacbang", "Hernandez", "Herrera", "Hilvano", "Hipolito", "Hizon", "Hornilla", "Ilagan", "Ilano", "Ingles", "Inocencio", "Iñiguez", "Irisan", "Isidro", "Jacinto", "Javier", "Jimenez", "Joaquin", "Jocson", "Javier", "Jumawan", "Jurado", "Lacuesta", "Lacuna",
 "Lacson", "Lagman", "Laguardia", "Lakas", "Laluna", "Lamberte", "Lana", "Landicho", "Lanuza", "Lapuz",
-"Lara", "Lazaro", "Leano", "Lee", "Legaspi", "Lejos", "Lerma", "Lim", "Limpo", "Lopez",
+"Lara", "Lazaro", "Leano", "Legaspi", "Lejos", "Lerma", "Limpo", "Lopez",
 "Lorenzo", "Lucero", "Lugo", "Luna", "Macaraeg", "Macapagal", "Macaraig", "Maceda", "Mendoza", "Mendiola",
 "Mercado", "Merced", "Mesa", "Metrillo", "Mijares", "Milanes", "Miranda", "Molina", "Montejo", "Montes",
 "Morales", "Moreno", "Moro", "Munoz", "Nacario", "Naguit", "Nakpil", "Natividad", "Navarro", "Nazareno",
@@ -410,7 +409,7 @@ def yopmail_email():
     name = fake.first_name() + fake.last_name()
     username = re.sub(r'[^a-zA-Z]', '', name).lower()
     number = random.randint(1000, 9999)
-    return f"{username}{number}@dfshdow.site"
+    return f"{username}{number}@yopmail.com"
     
 
 # HTML form extractor
