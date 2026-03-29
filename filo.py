@@ -268,8 +268,7 @@ first_names = [
 	"Charlotte", "Arkin", "Emma", "Christopher", "Olivia", "Mark", "Paul", "Dave", "Paulo", "Patrick",
 	"Clara", "Jiro", "Alexandra", "Kenshin", "Theresa", "Edward", "Luna", "Francis", "Aurora", "Carlos", "Elena", "Adriel", "Agatha",
 	"Aidan", "Aika", "Ailene", "Akira", "Alaric", "Althea", "Amara",
-	"Amira", "Andrei", "Andrea", "Anika", "Anselmo", "Aria", "Aris", "Armando", "Ashley",
-    "Aurelio", "Aurora", "Aviana", "Axel", "Azul", "Baltazar", "Bianca", "Blanca", "Boaz", "Brenna", 
+	"Amira", "Andrei", "Andrea", "Anika", "Anselmo", "Aria", "Aris", "Armando", "Ashley", "Aviana", "Axel", "Azul", "Bianca", "Brenna", 
 	"Bright", "Caleb", "Camila", "Carlos", "Carmela", "Celine", "Cesar", "Charisse", "Chelsea", "Christian",
 "Christina", "Cielo", "Clara", "Clementine", "Coby", "Coleen", "Conrad", "Corazon", "Cruz", "Daisy",
 "Dante", "Daphne", "Darwin", "Dawn", "Dencio", "Denise", "Diego", "Diana", "Dion", "Doris",
@@ -308,9 +307,9 @@ surnames = ["Reyes", "Dela Cruz", "Santos", "Fernandez", "Garcia", "Rodriguez", 
 			"Nolasco", "Orias", "Pamplona", "Quintos", "Rico", "Santillan", "Tiongson", "Ubial", "Valencia", "Yap", "Zamora", "Abarquez", "Baltazar", "Cabrera", "Dacanay",
 			"Eleazar", "Fajardo", "Gonzales", "Hizon", "Ibanez", "Jimenez", "Lapuz", "Mallari", "Natividad", "Ocampo", "Palacios", "Quiambao", "Roldan",
 			"Sarmiento", "Tanchanco", "Umali", "Wenceslao", "Yuson", "Zarate", "Abalos", "Abaya", "Abello", "Abendanio", "Abiera", "Abogado", "Abrigo", "Acain", "Acosta", "Actub",
-"Adalem", "Adriano", "Agbayani", "Agcaoili", "Agpalo", "Aguilar", "Aguirre", "Aguas", "Aguillon", "Alegre",
-"Alfonso", "Aliping", "Allado", "Almazan", "Almonte", "Alonzo", "Alvarez", "Amante", "Ampil", "Ancheta",
-"Andaya", "Angeles", "Aniban", "Añonuevo", "Aquino", "Aranda", "Aranas", "Arcilla", "Arevalo", "Arroyo",
+            "Adalem", "Adriano", "Agbayani", "Agcaoili", "Agpalo", "Aguilar", "Aguirre", "Aguas", "Aguillon", "Alegre",
+            "Alfonso", "Aliping", "Allado", "Almazan", "Almonte", "Alonzo", "Alvarez", "Amante", "Ampil", "Ancheta",
+        "Andaya", "Angeles", "Aniban", "Añonuevo", "Aquino", "Aranda", "Aranas", "Arcilla", "Arevalo", "Arroyo",
 "Asis", "Atienza", "Austria", "Avila", "Ayala", "Azanza", "Bacani", "Bacolod", "Bacomo", "Bagabaldo",
 "Baguio", "Bahague", "Balagtas", "Balais", "Balandra", "Balboa", "Balderama", "Balido", "Balinas", "Balisi",
 "Baltazar", "Banaga", "Bandilla", "Banares", "Bancaso", "Bangayan", "Bañas", "Barba", "Barbero", "Barcebal",
@@ -338,7 +337,7 @@ surnames = ["Reyes", "Dela Cruz", "Santos", "Fernandez", "Garcia", "Rodriguez", 
 "Morales", "Moreno", "Moro", "Munoz", "Nacario", "Naguit", "Nakpil", "Natividad", "Navarro", "Nazareno",
 "Nieto", "Nolasco", "Nunez", "Ocampo", "Oceña", "Ochoa", "Olaivar", "Olalia", "Oleo", "Ong",
 "Oñate", "Ordoñez", "Orendain", "Ortega", "Osorio", "Otanes", "Oyao", "Pabalan", "Pabillo", "Padilla",
-"Pagaduan", "Pagsisihan", "Palao", "Palencia", "Palma", "Panganiban", "Pantoja", "Paragas", "Paras", "Parungao",
+"Pagaduan", "Palao", "Palencia", "Palma", "Panganiban", "Pantoja", "Paragas", "Paras", "Parungao",
 "Pasamba", "Pascual", "Pasion", "Patdu", "Perez", "Perilla", "Pestaño", "Petilla", "Pineda", "Pinto",
 "Poblete", "Ponce", "Policarpio", "Ponce de Leon", "Punzalan", "Querubin", "Quizon", "Quisumbing", "Ramos", "Rana",
 "Razon", "Rebong", "Reyes", "Riego de Dios", "Rimando", "Rivera", "Robles", "Rodriguez", "Rojas", "Romero",
@@ -407,7 +406,7 @@ import random
 
 fake = Faker()
 
-def dfshdow_email():
+def yopmail_email():
     name = fake.first_name() + fake.last_name()
     username = re.sub(r'[^a-zA-Z]', '', name).lower()
     number = random.randint(1000, 9999)
@@ -528,7 +527,7 @@ def createfb_method_3():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = dfshdow_email()
+                phone = yopmail_email()
 
             payload = {
                 'ccp': "2",
@@ -678,7 +677,7 @@ def createfb_method_2():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = dfshdow_email()
+                phone = yopmail_email()
 
             payload = {
                 'ccp': "2",
@@ -821,7 +820,7 @@ def createfb_method_1():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = dfshdow_email()
+                phone = yopmail_email()
 
             payload = {
                 'ccp': "2",
