@@ -25,10 +25,6 @@ from bs4 import BeautifulSoup as sop
 from datetime import datetime
 from time import sleep as slp
 folder_path = '/sdcard/CyberRow-X'
-try:
-    os.makedirs(folder_path, exist_ok=True)
-except:
-    pass
 os.system("clear")
 
 R="[bold red]"
