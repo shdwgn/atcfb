@@ -1,4 +1,4 @@
-forimport os
+import os
 import sys
 import re
 import random
