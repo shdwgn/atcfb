@@ -405,11 +405,11 @@ import random
 
 fake = Faker()
 
-def yopmail_email():
+def edumaili_email():
     name = fake.first_name() + fake.last_name()
     username = re.sub(r'[^a-zA-Z]', '', name).lower()
     number = random.randint(1000, 9999)
-    return f"{username}{number}@yopmail.com"
+    return f"{username}{number}@edumaili.com"
     
 
 # HTML form extractor
@@ -435,10 +435,10 @@ def banner():
 ╚═╝╩ ╩╚  ╩╚═╩ ╩                          
         {W}L      {R}U   {W}C      {R}A   {W}S {R}X    D
 {W}─────────────────────────────────────────────{W}
-{W}[{G}•{W}]{G} SCRIPT {W}:{G} LUCAS
-{W}[{G}•{W}]{G} FACEBOOK {W}:{G} Lucas Lihm
-{W}[{G}•{W}]{G} GITHUB   {W}:{G} secret
-{W}[{G}•{W}]{G} TOOL     {W}:{G} Auto Create FRA
+{W}[{W}•{W}]{W} SCRIPT {W}:{W} LUCAS
+{W}[{W}•{W}]{W} FACEBOOK {W}:{W} Lucas Lihm
+{W}[{W}•{W}]{W} GITHUB   {W}:{W} secret
+{W}[{W}•{W}]{W} TOOL     {W}:{W} Auto Create FRA
 {W}─────────────────────────────────────────────{W}""")
 
 def linex():
@@ -526,7 +526,7 @@ def createfb_method_3():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = yopmail_email()
+                phone = edumaili_email()
 
             payload = {
                 'ccp': "2",
@@ -676,7 +676,7 @@ def createfb_method_2():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = yopmail_email()
+                phone = edumaili_email()
 
             payload = {
                 'ccp': "2",
@@ -819,7 +819,7 @@ def createfb_method_1():
             elif email_choice == '2':
                 phone = generate_phone_number()
             else:
-                phone = yopmail_email()
+                phone = edumaili_email()
 
             payload = {
                 'ccp': "2",
